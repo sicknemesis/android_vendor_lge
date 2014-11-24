@@ -44,7 +44,6 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/lge/hammerhead/proprietary/libvss_nv_idl.so:system/vendor/lib/libvss_nv_idl.so:lge \
     vendor/lge/hammerhead/lge/hammerhead/proprietary/libvss_nv_iface.so:system/vendor/lib/libvss_nv_iface.so:lge \
     vendor/lge/hammerhead/lge/hammerhead/proprietary/libmmcamera_interface.so:system/lib/libmmcamera_interface.so:lge \
-    vendor/lge/hammerhead/lge/hammerhead/proprietary/DMAgent.apk:system/app/DMAgent/DMAgent.apk \
     vendor/lge/hammerhead/lge/hammerhead/proprietary/OmaDmclient.apk:system/app/OmaDmclient/OmaDmclient.apk \
     vendor/lge/hammerhead/lge/hammerhead/proprietary/qcrilmsgtunnel.apk:system/app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
     vendor/lge/hammerhead/lge/hammerhead/proprietary/shutdownlistener.apk:system/app/shutdownlistener/shutdownlistener.apk \
@@ -76,3 +75,5 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/lge/hammerhead/proprietary/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/lge/hammerhead/lge/hammerhead/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/hammerhead/lge/hammerhead/proprietary/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+
+# pulled start line #46
