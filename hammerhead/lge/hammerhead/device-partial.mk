@@ -44,12 +44,6 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/lge/hammerhead/proprietary/libvss_nv_idl.so:system/vendor/lib/libvss_nv_idl.so:lge \
     vendor/lge/hammerhead/lge/hammerhead/proprietary/libvss_nv_iface.so:system/vendor/lib/libvss_nv_iface.so:lge \
     vendor/lge/hammerhead/lge/hammerhead/proprietary/libmmcamera_interface.so:system/lib/libmmcamera_interface.so:lge \
-    vendor/lge/hammerhead/lge/hammerhead/proprietary/OmaDmclient.apk:system/app/OmaDmclient/OmaDmclient.apk \
-    vendor/lge/hammerhead/lge/hammerhead/proprietary/qcrilmsgtunnel.apk:system/app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
-    vendor/lge/hammerhead/lge/hammerhead/proprietary/shutdownlistener.apk:system/app/shutdownlistener/shutdownlistener.apk \
-    vendor/lge/hammerhead/lge/hammerhead/proprietary/SprintHiddenMenu.apk:system/app/SprintHiddenMenu/SprintHiddenMenu.apk \
-    vendor/lge/hammerhead/lge/hammerhead/proprietary/TimeService.apk:system/app/TimeService/TimeService.apk \
-    vendor/lge/hammerhead/lge/hammerhead/proprietary/UpdateSetting.apk:system/app/UpdateSetting/UpdateSetting.apk \
     vendor/lge/hammerhead/lge/hammerhead/proprietary/DxHDCP.cfg:system/etc/DxHDCP.cfg \
     vendor/lge/hammerhead/lge/hammerhead/proprietary/libssd.so:system/lib/libssd.so \
     vendor/lge/hammerhead/lge/hammerhead/proprietary/librpmb.so:system/lib/librpmb.so \
