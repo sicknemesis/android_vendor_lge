@@ -11,19 +11,3 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-# Apps
-PRODUCT_PACKAGES += \
-    OmaDmclient \
-    qcrilmsgtunnel \
-    shutdownlistener \
-    SprintHiddenMenu \
-    TimeService \
-    UpdateSetting
-
-LOCAL_STEM := hammerhead/device-partial.mk
-
-$(call inherit-product-if-exists, vendor/lge/hammerhead/broadcom/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/lge/hammerhead/lge/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/lge/hammerhead/qcom/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/lge/hammerhead/proprietary/$(LOCAL_STEM))
