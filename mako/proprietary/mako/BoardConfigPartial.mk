@@ -11,10 +11,3 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-LOCAL_STEM := mako/BoardConfigPartial.mk
-
--include vendor/lge/mako/broadcom/$(LOCAL_STEM)
--include vendor/lge/mako/lge/$(LOCAL_STEM)
--include vendor/lge/mako/qcom/$(LOCAL_STEM)
--include vendor/lge/mako/proprietary/$(LOCAL_STEM)

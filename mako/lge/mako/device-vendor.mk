@@ -17,3 +17,4 @@ LOCAL_STEM := mako/device-partial.mk
 $(call inherit-product-if-exists, vendor/lge/mako/broadcom/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/lge/mako/lge/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/lge/mako/qcom/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/lge/mako/proprietary/$(LOCAL_STEM))
