@@ -14,12 +14,16 @@
 
 # Proprietary blob(s) necessary for Hammerhead hardware
 PRODUCT_COPY_FILES := \
-    vendor/lge/hammerhead/proprietary/hammerhead/proprietary/libmmcamera_interface.so:system/lib/libmmcamera_interface.so:lge \
     vendor/lge/hammerhead/proprietary/hammerhead/proprietary/DxHDCP.cfg:system/etc/DxHDCP.cfg \
     vendor/lge/hammerhead/proprietary/hammerhead/proprietary/flp.conf:system/etc/flp.conf \
-    vendor/lge/hammerhead/proprietary/hammerhead/proprietary/libfmas.so:system/lib/soundfx/libfmas.so \
-    vendor/lge/hammerhead/proprietary/hammerhead/proprietary/libssd.so:system/lib/libssd.so \
+    vendor/lge/hammerhead/proprietary/hammerhead/proprietary/serviceitems.xml:system/etc/permissions/serviceitems.xml \
+    vendor/lge/hammerhead/proprietary/hammerhead/proprietary/google.xml:system/etc/sysconfig/google.xml \
+    vendor/lge/hammerhead/proprietary/hammerhead/proprietary/google_build.xml:system/etc/sysconfig/google_build.xml \
+    vendor/lge/hammerhead/proprietary/hammerhead/proprietary/libnativehelper_compat_libc++.so:system/lib/libnativehelper_compat_libc++.so \
+    vendor/lge/hammerhead/proprietary/hammerhead/proprietary/librefocus.so:system/lib/librefocus.so \
     vendor/lge/hammerhead/proprietary/hammerhead/proprietary/librpmb.so:system/lib/librpmb.so \
+    vendor/lge/hammerhead/proprietary/hammerhead/proprietary/libssd.so:system/lib/libssd.so \
+    vendor/lge/hammerhead/proprietary/hammerhead/proprietary/libfmas.so:system/lib/soundfx/libfmas.so \
     vendor/lge/hammerhead/proprietary/hammerhead/proprietary/dxhdcp2.b00:system/vendor/firmware/discretix/dxhdcp2.b00 \
     vendor/lge/hammerhead/proprietary/hammerhead/proprietary/dxhdcp2.b01:system/vendor/firmware/discretix/dxhdcp2.b01 \
     vendor/lge/hammerhead/proprietary/hammerhead/proprietary/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02 \
