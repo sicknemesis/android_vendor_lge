@@ -14,6 +14,7 @@
 
 # Proprietary blob(s) necessary for Mako hardware
 PRODUCT_COPY_FILES := \
+    vendor/lge/mako/proprietary/mako/proprietary/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/lge/mako/proprietary/mako/proprietary/DxHDCP.cfg:system/etc/DxHDCP.cfg \
     vendor/lge/mako/proprietary/mako/proprietary/libDxHdcp.so:system/lib/libDxHdcp.so \
     vendor/lge/mako/proprietary/mako/proprietary/librefocus.so:system/lib/librefocus.so \
