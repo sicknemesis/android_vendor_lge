@@ -171,3 +171,6 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/qcom/hammerhead/proprietary/libtime_genoff.so:system/vendor/lib/libtime_genoff.so:qcom \
     vendor/lge/hammerhead/qcom/hammerhead/proprietary/libTimeService.so:system/vendor/lib/libTimeService.so:qcom \
 
+    #missing
+PRODUCT_COPY_FILES += \
+    vendor/lge/hammerhead/qcom/hammerhead/proprietary/libmmcamera_interface.so:system/lib/libmmcamera_interface.so:qcom
